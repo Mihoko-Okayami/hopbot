@@ -1,6 +1,6 @@
 # Mitsuha Miyamizu
 
-Un simple bot [Discord](https://discord.com) développé à titre d'apprentissage en [Node.js](https://nodejs.org), et qui utilise le module [Discord.js](https://discord.js.org).
+Un simple bot [Discord](https://discord.com) développé à titre d'apprentissage en [Node.js](https://nodejs.org) avec module [Discord.js](https://discord.js.org).
 
 ## Installation
 
