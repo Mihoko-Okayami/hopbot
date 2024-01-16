@@ -46,6 +46,7 @@ Exécutez la commande `node index.js` pour démarrer l'application.
 
  - **/ASCII :** Transforme votre message en texte ASCII ( utilise le module `figlet` ).
  - **/Joke :** Affiche une blague ( de la catégorie de votre choix ) depuis l'API : [blagues-api.fr](https://www.blagues-api.fr).
+ - **/Love :** Calcul votre pourcentage de compatibilité amoureuse avec un utilisateur.
  - **/Ping :** Affiche le ping du bot. 
  - **/Rand :** Affiche un jeté de dés sur une plage configurable ( défaut /100 ).
  - **/React :** Affiche une image de type furry ou weeb de la catégorie de votre choix depuis les API : [yiff.rest](https://yiff.rest/) et [nekos.best](https://nekos.best/).
