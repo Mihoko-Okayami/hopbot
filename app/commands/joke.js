@@ -22,7 +22,7 @@ module.exports = {
 		if (!interaction.client.settings.api.blagues) return;
 		const type = interaction.options.getString('catégorie');
 		try {
-			const response = await axios.get(`https://www.blagues-api.fr/api/type/${type}/random`, { headers: { 'Authorization': `Bearer ${interaction.client.settings.api.blagues}`, 'User-Agent': 'Mitsuha Miyamizu/0.1.0 (Mihoko Okayami#0579; "Discord")' } });
+			const response = await axios.get(`https://www.blagues-api.fr/api/type/${type}/random`, { headers: { 'Authorization': `Bearer ${interaction.client.settings.api.blagues}`, 'User-Agent': 'Mitsuha Miyamizu/0.1.0 (mihoko_okayami; "Discord")' } });
 			const joke = response.data;
 			await interaction.reply({ embeds: [new EmbedBuilder().setColor(interaction.client.settings.bot.colors.primary).setDescription(`Voici votre blague ${interaction.user} :`).addFields({ name: joke['joke'], value: `Réponse : || ${joke['answer']} ||` }).setFooter({ text: `Catégorie : ${joke['type']}` })] });
 		} catch (error) {

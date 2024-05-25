@@ -106,7 +106,7 @@ module.exports = {
 		}
 		if (cmd === 'furry') {
 			try {
-				const response = await axios.get(`https://v2.yiff.rest/furry/${choice}?amount=1&notes=disabled`, { headers: { 'Authorization': `${interaction.client.settings.api.yiffy}`, 'User-Agent': 'Mitsuha Miyamizu/0.1.0 (Mihoko Okayami#0579; "Discord")' } });
+				const response = await axios.get(`https://v2.yiff.rest/furry/${choice}?amount=1&notes=disabled`, { headers: { 'Authorization': `${interaction.client.settings.api.yiffy}`, 'User-Agent': 'Mitsuha Miyamizu/0.1.0 (mihoko_okayami; "Discord")' } });
 				const { images } = response.data;
 				const artist = images[0]?.artists?.[0] || null;
 				const credits = artist ? `Artiste : ${artist}` : 'Inconnu';
@@ -118,7 +118,7 @@ module.exports = {
 		}
 		if (cmd === 'weeb') {
 			try {
-				const response = await axios.get(`https://nekos.best/api/v2/${choice}?amount=1`, { headers: { 'User-Agent': 'Mitsuha Miyamizu/0.1.0 (Mihoko Okayami#0579; "Discord")' } });
+				const response = await axios.get(`https://nekos.best/api/v2/${choice}?amount=1`, { headers: { 'User-Agent': 'Mitsuha Miyamizu/0.1.0 (mihoko_okayami; "Discord")' } });
 				const { results } = response.data;
 				const artist = results[0]?.artist_name || null;
 				const anime = results[0]?.anime_name || null;
