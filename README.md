@@ -1,4 +1,4 @@
-# HopBot
+# Mitsuha Miyamizu
 
 Un simple bot [Discord](https://discord.com) développé à titre d'apprentissage en [Node.js](https://nodejs.org) avec module [Discord.js](https://discord.js.org).
 
@@ -14,7 +14,7 @@ Avant d'exécuter l'application, vous devez configurer les paramètres dans le f
 ```json
 {
   "bot": {
-    "status": "🥕",
+    "status": "itomori.fr",
     "guilde": "",
     "colors": {
       "primary": "#5bc0de",
