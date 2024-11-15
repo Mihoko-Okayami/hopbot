@@ -1,6 +1,6 @@
 FROM node:alpine
 
-LABEL maintainer="Mihoko-Okayami (https://hub.docker.com/r/mihokookayami/mitsuha-miyamizu/)"
+LABEL maintainer="Mihoko-Okayami (https://hub.docker.com/r/mihokookayami/hopbot/)"
 
 ENV NODE_PATH=/usr/local/lib/node_modules
 
@@ -12,4 +12,4 @@ RUN set -eux; \
 
 WORKDIR /data
 
-CMD pm2-runtime start index.js --name Mitsuha-Miyamizu --output mitsuha-miyamizu.log
+CMD pm2-runtime start index.js --name HopBot --output hopbot.log
