@@ -1,5 +1,5 @@
 const { Client, Collection, GatewayIntentBits, Partials } = require('discord.js');
-module.exports = class HopBot extends Client {
+module.exports = class Mitsuha_Miyamizu extends Client {
 	constructor() {
 		super({
 			intents: [
